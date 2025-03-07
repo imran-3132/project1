@@ -17,6 +17,7 @@ The user can play against the computer by choosing Rock, Paper, and Scissors.
  
 
 import random #importing random module
+
 rock = '''
     _______
 ---'   ____)
@@ -25,7 +26,7 @@ rock = '''
       (____)
 ---.__(___)
 '''
-<br>
+
 
 paper = '''
     _______
@@ -35,7 +36,7 @@ paper = '''
          _______)
 ---.__________)
 '''
-<br>
+
 
 scissors = '''
     _______
@@ -45,7 +46,7 @@ scissors = '''
       (____)
 ---.__(___)
 '''
-<br>
+
 game_images=[rock,paper,scissors]
 #Asking User for input
 user_choice=int(input("what do you choose? type 0 for rock, type 1 for paper, type 2 for scissors"))
