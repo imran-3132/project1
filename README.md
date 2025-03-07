@@ -25,6 +25,7 @@ rock = '''
       (____)
 ---.__(___)
 '''
+<br>
 
 paper = '''
     _______
@@ -34,6 +35,7 @@ paper = '''
          _______)
 ---.__________)
 '''
+<br>
 
 scissors = '''
     _______
@@ -43,9 +45,12 @@ scissors = '''
       (____)
 ---.__(___)
 '''
+<br>
 game_images=[rock,paper,scissors]
-user_choice=int(input("what do you choose? type 0 for rock, type 1 for paper, type 2 for scissors")) #Asking User for input
-computer_choice=random.randint(0,2)  #Generating computer's choice
+#Asking User for input
+user_choice=int(input("what do you choose? type 0 for rock, type 1 for paper, type 2 for scissors"))
+#Generating computer's choice
+computer_choice=random.randint(0,2)  
 
 
 print(game_images[computer_choice]) 
