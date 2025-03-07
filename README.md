@@ -1,5 +1,10 @@
-# project1
 # Rock paper scissors
+##Description
+This is a simple **Rock paper scissors** game built using python.
+<br>
+The user can play against the computer by choosing Rock, Paper, and Scissors.
+<br>
+
 import random
 rock = '''
     _______
