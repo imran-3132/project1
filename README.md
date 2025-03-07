@@ -47,8 +47,8 @@ game_images=[rock,paper,scissors]
 user_choice=int(input("what do you choose? type 0 for rock, type 1 for paper, type 2 for scissors")) #Asking User for input
 computer_choice=random.randint(0,2)  #Generating computer's choice
 
-# display choices
-print(game_images[computer_choice])
+
+print(game_images[computer_choice]) 
 print(f"computer choice:{computer_choice}")
 if user_choice >=3 or computer_choice<0:
     print("u entered a invalid number.you lose")
