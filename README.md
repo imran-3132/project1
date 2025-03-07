@@ -1,5 +1,5 @@
 # Rock paper scissors
-#Description
+##Description
 This is a simple **Rock paper scissors** game built using python.
 
 The user can play against the computer by choosing Rock, Paper, and Scissors.
