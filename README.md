@@ -9,8 +9,8 @@ The user can play against the computer by choosing Rock, Paper, and Scissors.
 2. Clone this repository or download the file.
 
 ## Technologies Used
- Python
- Random module
+- Python
+- Random module
 ## Author 
 ** Imran ** 
  
